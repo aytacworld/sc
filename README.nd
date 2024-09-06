@@ -1,0 +1,18 @@
+# sc
+
+go cli app for controling pulseaudio easily.
+
+## TODO
+
+- soundcard
+  - sc list <id | name> [optional]
+  - sc select-next
+  - sc select-prev
+  - sc select <id | name>
+- sound control
+  - sc mute
+  - sc stop
+  - sc vol
+  - sc vol-up
+  - sc vol-down
+- zsh/bash autocomplete support
